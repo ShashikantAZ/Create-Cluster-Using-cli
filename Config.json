@@ -1,0 +1,30 @@
+{
+	"LoginDetails":{
+		"SubscriptionId":"e5e3dc51-499d-48d9-a2a2-49d8edd75614"
+	},
+	"ResourceGroupDetails":{
+		"Name":"dev-aks",
+		"Region":"eastus"
+	},
+	"VirtualNetworkDetails":{
+		"Vnet":"dev-aks-vnet",
+		"VnetAddressPrefix":"10.0.0.0/8",
+		"SubnetDefault":"dev-aks-subnet-default",
+		"SubnetDefaultPrefix":"10.240.0.0/16",
+		"SubnetVirtualNodes":"dev-aks-subnet-virtual-nodes",
+		"SubnetVirtualNodesPrefix":"10.241.0.0/16"
+	
+	},
+	"AzureActiveDirectoryDetails":{
+		"AzureActiveDirectoryGroupName":"dev-aksAdmins1",
+		"Users":{
+					"UserId":"dev-adminUser1@shashikantnalavade998gmail.onmicrosoft.com",
+					"Password":"Demo@123"
+				}
+		},
+	"WindowsUsernamePassword":{
+		"UserName":"WinUser",
+		"Password":"Shashikant@123"
+	},
+	"ClusterName":"dev-Cluster"
+}
